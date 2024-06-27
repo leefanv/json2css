@@ -1,0 +1,409 @@
+
+:root,:host{
+/***************** 组件 *************************/
+
+/* ----------- tag -----------*/
+
+/* ----------- background -----------*/
+--dm-component-tag-background-gray: var(--dm-token-palette-gray-20);
+--dm-component-tag-background-blue: var(--dm-token-palette-blue-20);
+--dm-component-tag-background-indigo: var(--dm-token-palette-indigo-20);
+--dm-component-tag-background-purple: var(--dm-token-palette-purple-20);
+--dm-component-tag-background-yellow: var(--dm-token-palette-yellow-20);
+--dm-component-tag-background-orange: var(--dm-token-palette-orange-20);
+--dm-component-tag-background-green: var(--dm-token-palette-green-20);
+--dm-component-tag-background-teal: var(--dm-token-palette-teal-20);
+--dm-component-tag-background-red: var(--dm-token-palette-red-20);
+
+/* ----------- font -----------*/
+--dm-component-tag-font-color-gray: var(--dm-token-palette-gray-60);
+--dm-component-tag-font-color-blue: var(--dm-token-palette-blue-60);
+--dm-component-tag-font-color-indigo: var(--dm-token-palette-indigo-60);
+--dm-component-tag-font-color-purple: var(--dm-token-palette-purple-60);
+--dm-component-tag-font-color-yellow: var(--dm-token-palette-yellow-60);
+--dm-component-tag-font-color-orange: var(--dm-token-palette-orange-60);
+--dm-component-tag-font-color-green: var(--dm-token-palette-green-60);
+--dm-component-tag-font-color-teal: var(--dm-token-palette-teal-60);
+--dm-component-tag-font-color-red: var(--dm-token-palette-red-60);
+
+/* ----------- border -----------*/
+--dm-component-tag-border-gray: var(--dm-token-palette-gray-20);
+--dm-component-tag-border-blue: var(--dm-token-palette-blue-20);
+--dm-component-tag-border-indigo: var(--dm-token-palette-indigo-20);
+--dm-component-tag-border-purple: var(--dm-token-palette-purple-20);
+--dm-component-tag-border-yellow: var(--dm-token-palette-yellow-20);
+--dm-component-tag-border-orange: var(--dm-token-palette-orange-20);
+--dm-component-tag-border-green: var(--dm-token-palette-green-20);
+--dm-component-tag-border-teal: var(--dm-token-palette-teal-20);
+--dm-component-tag-border-red: var(--dm-token-palette-red-20);
+
+/* ----------- search -----------*/
+
+/* ----------- background -----------*/
+--dm-component-search-background: var(--dm-common-background-01);
+
+/* ----------- border -----------*/
+--dm-component-search-border: var(--dm-common-border-color-default);
+
+/* ----------- choice -----------*/
+--dm-component-search-choice-trigger-default-background: var(--dm-common-background-default);
+--dm-component-search-choice-trigger-default-border: var(--dm-common-border-color-default);
+--dm-component-search-choice-trigger-default-font: var(--dm-common-font-color-secondary);
+--dm-component-search-choice-trigger-empty-font: var(--dm-common-font-color-placeholder);
+--dm-component-search-choice-trigger-hover-font: var(--dm-common-font-color-secondary);
+--dm-component-search-choice-trigger-hover-border: var(--dm-common-border-color-transparent);
+--dm-component-search-choice-trigger-hover-background: var(--dm-common-background-02);
+--dm-component-search-choice-trigger-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-search-choice-trigger-disabled-border: var(--dm-common-border-color-transparent);
+--dm-component-search-choice-trigger-disabled-background: var(--dm-common-background-disabled);
+--dm-component-search-choice-trigger-focus-font: var(--dm-common-font-color-placeholder);
+--dm-component-search-choice-trigger-focus-border: var(--dm-common-border-color-focus);
+--dm-component-search-choice-trigger-focus-background: var(--dm-common-background-default);
+--dm-component-search-choice-trigger-empty-border: var(--dm-common-border-color-default);
+--dm-component-search-choice-trigger-empty-background: var(--dm-common-background-transparent);
+
+/* ----------- module -----------*/
+
+/* ----------- border -----------*/
+--dm-component-module-border-radius: var(--dm-common-border-radius-s-none);
+
+/* ----------- upload -----------*/
+
+/* ----------- background -----------*/
+--dm-component-upload-background: var(--dm-common-background-default);
+
+/* ----------- border -----------*/
+--dm-component-upload-border: var(--dm-common-border-color-default);
+
+/* ----------- calendar -----------*/
+
+/* ----------- background -----------*/
+--dm-component-calendar-background-danger: var(--dm-token-palette-red-10);
+--dm-component-calendar-background-success: var(--dm-token-palette-green-10);
+--dm-component-calendar-background-warning: var(--dm-token-palette-orange-10);
+--dm-component-calendar-background-hover-danger: var(--dm-token-palette-red-20);
+--dm-component-calendar-background-hover-success: var(--dm-token-palette-green-20);
+--dm-component-calendar-background-hover-warning: var(--dm-token-palette-orange-20);
+
+/* ----------- shell -----------*/
+--dm-component-shell-background: var(--dm-token-palette-gray-80);
+
+/* ----------- button -----------*/
+
+/* ----------- secondary -----------*/
+--dm-component-button-secondary-default-border: var(--dm-common-border-color-default);
+--dm-component-button-secondary-default-font: var(--dm-common-font-color-secondary);
+--dm-component-button-secondary-default-background: var(--dm-common-background-default);
+--dm-component-button-secondary-hover-border: var(--dm-common-border-color-default);
+--dm-component-button-secondary-hover-font: var(--dm-common-font-color-secondary);
+--dm-component-button-secondary-hover-background: var(--dm-common-background-hover);
+--dm-component-button-secondary-disabled-border: var(--dm-common-border-color-disabled);
+--dm-component-button-secondary-disabled-background: var(--dm-common-background-disabled);
+--dm-component-button-secondary-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-button-secondary-danger-default-font: var(--dm-common-font-color-error);
+--dm-component-button-secondary-danger-default-background: var(--dm-common-background-error-light);
+--dm-component-button-secondary-danger-default-border: var(--dm-common-border-color-transparent);
+--dm-component-button-secondary-danger-hover-font: var(--dm-common-font-color-error);
+--dm-component-button-secondary-danger-hover-background: var(--dm-common-background-error-light-hover);
+--dm-component-button-secondary-danger-hover-border: var(--dm-common-border-color-transparent);
+--dm-component-button-secondary-danger-disabled-font: var(--dm-common-font-color-error-disabled);
+--dm-component-button-secondary-danger-disabled-background: var(--dm-common-background-error-light);
+--dm-component-button-secondary-danger-disabled-border: var(--dm-common-border-color-transparent);
+--dm-component-button-secondary-danger-focus-font: var(--dm-common-font-color-error);
+--dm-component-button-secondary-danger-focus-background: var(--dm-common-background-error-light);
+--dm-component-button-secondary-danger-focus-border: var(--dm-common-border-color-transparent);
+--dm-component-button-secondary-focus-font: var(--dm-common-font-color-secondary);
+--dm-component-button-secondary-focus-background: var(--dm-common-background-default);
+--dm-component-button-secondary-focus-border: var(--dm-common-border-color-default);
+
+/* ----------- tertiary -----------*/
+--dm-component-button-tertiary-default-border: var(--dm-common-border-color-transparent);
+--dm-component-button-tertiary-default-font: var(--dm-common-font-color-brand);
+--dm-component-button-tertiary-default-background: var(--dm-common-background-transparent);
+--dm-component-button-tertiary-hover-font: var(--dm-common-font-color-brand);
+--dm-component-button-tertiary-hover-background: var(--dm-common-background-hover);
+--dm-component-button-tertiary-hover-border: var(--dm-common-border-color-transparent);
+--dm-component-button-tertiary-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-button-tertiary-disabled-background: var(--dm-common-background-transparent);
+--dm-component-button-tertiary-disabled-border: var(--dm-common-border-color-transparent);
+--dm-component-button-tertiary-danger-default-font: var(--dm-common-font-color-error);
+--dm-component-button-tertiary-danger-default-background: var(--dm-common-background-transparent);
+--dm-component-button-tertiary-danger-default-border: var(--dm-common-border-color-transparent);
+--dm-component-button-tertiary-danger-hover-font: var(--dm-common-font-color-error);
+--dm-component-button-tertiary-danger-hover-background: var(--dm-common-background-error-light-hover);
+--dm-component-button-tertiary-danger-hover-border: var(--dm-common-border-color-transparent);
+--dm-component-button-tertiary-danger-disabled-font: var(--dm-common-font-color-error-disabled);
+--dm-component-button-tertiary-danger-disabled-background: var(--dm-common-background-error-light);
+--dm-component-button-tertiary-danger-disabled-border: var(--dm-common-border-color-transparent);
+--dm-component-button-tertiary-danger-focus-font: var(--dm-common-font-color-error);
+--dm-component-button-tertiary-danger-focus-background: var(--dm-common-background-default);
+--dm-component-button-tertiary-danger-focus-border: var(--dm-common-border-color-transparent);
+--dm-component-button-tertiary-focus-font: var(--dm-common-font-color-brand);
+--dm-component-button-tertiary-focus-background: var(--dm-common-background-default);
+--dm-component-button-tertiary-focus-border: var(--dm-common-border-color-transparent);
+
+/* ----------- ghost -----------*/
+--dm-component-button-ghost-default-font: var(--dm-common-font-color-secondary);
+--dm-component-button-ghost-default-background: var(--dm-common-background-transparent);
+--dm-component-button-ghost-default-border: var(--dm-common-border-color-transparent);
+--dm-component-button-ghost-hover-font: var(--dm-common-font-color-secondary);
+--dm-component-button-ghost-hover-background: var(--dm-common-background-hover);
+--dm-component-button-ghost-hover-border: var(--dm-common-border-color-transparent);
+--dm-component-button-ghost-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-button-ghost-disabled-background: var(--dm-common-background-transparent);
+--dm-component-button-ghost-disabled-border: var(--dm-common-border-color-transparent);
+--dm-component-button-ghost-danger-default-font: var(--dm-common-font-color-error);
+--dm-component-button-ghost-danger-default-background: var(--dm-common-background-transparent);
+--dm-component-button-ghost-danger-default-border: var(--dm-common-border-color-transparent);
+--dm-component-button-ghost-danger-hover-font: var(--dm-common-font-color-error);
+--dm-component-button-ghost-danger-hover-background: var(--dm-common-background-error-light-hover);
+--dm-component-button-ghost-danger-hover-border: var(--dm-common-border-color-transparent);
+--dm-component-button-ghost-danger-disabled-font: var(--dm-common-font-color-error-disabled);
+--dm-component-button-ghost-danger-disabled-background: var(--dm-common-background-transparent);
+--dm-component-button-ghost-danger-disabled-border: var(--dm-common-border-color-transparent);
+--dm-component-button-ghost-danger-focus-font: var(--dm-common-font-color-error);
+--dm-component-button-ghost-danger-focus-background: var(--dm-common-background-default);
+--dm-component-button-ghost-danger-focus-border: var(--dm-common-border-color-transparent);
+--dm-component-button-ghost-focus-font: var(--dm-common-font-color-secondary);
+--dm-component-button-ghost-focus-background: var(--dm-common-background-default);
+--dm-component-button-ghost-focus-border: var(--dm-common-border-color-transparent);
+
+/* ----------- primary -----------*/
+--dm-component-button-primary-default-font: var(--dm-common-font-color-inverse);
+--dm-component-button-primary-default-background: var(--dm-common-background-primary);
+--dm-component-button-primary-default-border: var(--dm-common-border-color-transparent);
+--dm-component-button-primary-hover-font: var(--dm-common-font-color-inverse);
+--dm-component-button-primary-hover-background: var(--dm-common-background-primary-hover);
+--dm-component-button-primary-hover-border: var(--dm-common-border-color-transparent);
+--dm-component-button-primary-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-button-primary-disabled-border: var(--dm-common-border-color-disabled);
+--dm-component-button-primary-disabled-background: var(--dm-common-background-disabled);
+--dm-component-button-primary-danger-default-font: var(--dm-common-font-color-inverse);
+--dm-component-button-primary-danger-default-background: var(--dm-common-background-error);
+--dm-component-button-primary-danger-default-border: var(--dm-common-border-color-transparent);
+--dm-component-button-primary-danger-hover-border: var(--dm-common-border-color-transparent);
+--dm-component-button-primary-danger-hover-font: var(--dm-common-font-color-inverse);
+--dm-component-button-primary-danger-hover-background: var(--dm-common-background-error-hover);
+--dm-component-button-primary-danger-disabled-font: var(--dm-common-font-color-error-disabled);
+--dm-component-button-primary-danger-disabled-background: var(--dm-common-background-error-light);
+--dm-component-button-primary-danger-disabled-border: var(--dm-common-border-color-transparent);
+--dm-component-button-primary-danger-focus-font: var(--dm-common-font-color-inverse);
+--dm-component-button-primary-danger-focus-background: var(--dm-common-background-error);
+--dm-component-button-primary-danger-focus-border: var(--dm-common-border-color-transparent);
+--dm-component-button-primary-focus-font: var(--dm-common-font-color-inverse);
+--dm-component-button-primary-focus-background: var(--dm-common-background-primary);
+--dm-component-button-primary-focus-border: var(--dm-common-border-color-transparent);
+
+/* ----------- table -----------*/
+--dm-component-button-table-default-font: var(--dm-common-font-color-brand);
+--dm-component-button-table-default-background: var(--dm-common-background-transparent);
+--dm-component-button-table-focus-background: var(--dm-common-background-default);
+--dm-component-button-table-focus-border: var(--dm-common-border-color-transparent);
+--dm-component-button-table-default-border: var(--dm-common-border-color-transparent);
+--dm-component-button-table-hover-font: var(--dm-common-font-color-brand-hover);
+--dm-component-button-table-hover-background: var(--dm-common-background-hover);
+--dm-component-button-table-hover-border: var(--dm-common-border-color-transparent);
+--dm-component-button-table-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-button-table-disabled-background: var(--dm-common-background-transparent);
+--dm-component-button-table-disabled-border: var(--dm-common-border-color-transparent);
+--dm-component-button-table-focus-font: var(--dm-common-font-color-brand);
+
+/* ----------- input -----------*/
+
+/* ----------- default -----------*/
+--dm-component-input-default-font: var(--dm-common-font-color-tertiary);
+--dm-component-input-default-background: var(--dm-common-background-default);
+--dm-component-input-default-border: var(--dm-common-border-color-default);
+
+/* ----------- placeholder -----------*/
+--dm-component-input-placeholder-font: var(--dm-common-font-color-placeholder);
+
+/* ----------- hover -----------*/
+--dm-component-input-hover-font: var(--dm-common-font-color-tertiary);
+--dm-component-input-hover-background: var(--dm-common-background-default);
+--dm-component-input-hover-border: var(--dm-common-border-color-default);
+
+/* ----------- disabled -----------*/
+--dm-component-input-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-input-disabled-background: var(--dm-common-background-disabled);
+--dm-component-input-disabled-border: var(--dm-common-border-color-disabled);
+
+/* ----------- error -----------*/
+--dm-component-input-error-background: var(--dm-common-background-default);
+--dm-component-input-error-border: var(--dm-common-border-color-error);
+--dm-component-input-error-font: var(--dm-common-font-color-default);
+
+/* ----------- pend -----------*/
+--dm-component-input-pend-default-font: var(--dm-common-font-color-helper);
+--dm-component-input-pend-default-background: var(--dm-common-background-01);
+--dm-component-input-pend-default-border: var(--dm-common-border-color-default);
+--dm-component-input-pend-disabled-background: var(--dm-common-background-disabled);
+--dm-component-input-pend-disabled-border: var(--dm-common-border-color-disabled);
+--dm-component-input-pend-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-input-pend-hover-font: var(--dm-common-font-color-helper);
+--dm-component-input-pend-hover-background: var(--dm-common-background-02);
+--dm-component-input-pend-hover-border: var(--dm-common-border-color-default);
+
+/* ----------- focus -----------*/
+--dm-component-input-focus-font: var(--dm-common-font-color-tertiary);
+--dm-component-input-focus-background: var(--dm-common-background-default);
+--dm-component-input-focus-border: var(--dm-common-border-color-focus);
+
+/* ----------- tag -----------*/
+--dm-component-input-tag-default-font: var(--dm-common-font-color-tertiary);
+--dm-component-input-tag-default-background: var(--dm-common-background-02);
+--dm-component-input-tag-default-border: var(--dm-common-border-color-transparent);
+--dm-component-input-tag-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-input-tag-disabled-background: var(--dm-common-background-03);
+--dm-component-input-tag-disabled-border: var(--dm-common-border-color-transparent);
+
+/* ----------- placeholder -----------*/
+--dm-component-input-placeholder-disabled-font: var(--dm-common-font-color-disabled);
+
+/* ----------- select -----------*/
+
+/* ----------- default -----------*/
+--dm-component-select-default-font: var(--dm-common-font-color-tertiary);
+--dm-component-select-default-background: var(--dm-common-background-default);
+--dm-component-select-default-border: var(--dm-common-border-color-default);
+
+/* ----------- placeholder -----------*/
+--dm-component-select-placeholder-font: var(--dm-common-font-color-placeholder);
+--dm-component-select-placeholder-background: var(--dm-common-background-default);
+--dm-component-select-placeholder-border: var(--dm-common-border-color-default);
+
+/* ----------- hover -----------*/
+--dm-component-select-hover-font: var(--dm-common-font-color-tertiary);
+--dm-component-select-hover-background: var(--dm-common-background-default);
+--dm-component-select-hover-border: var(--dm-common-border-color-default);
+
+/* ----------- disabled -----------*/
+--dm-component-select-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-select-disabled-background: var(--dm-common-background-disabled);
+--dm-component-select-disabled-border: var(--dm-common-border-color-disabled);
+
+/* ----------- error -----------*/
+--dm-component-select-error-background: var(--dm-common-background-default);
+--dm-component-select-error-border: var(--dm-common-border-color-error);
+--dm-component-select-error-font: var(--dm-common-font-color-default);
+
+/* ----------- focus -----------*/
+--dm-component-select-focus-font: var(--dm-common-font-color-placeholder);
+--dm-component-select-focus-background: var(--dm-common-background-default);
+--dm-component-select-focus-border: var(--dm-common-border-color-focus);
+
+/* ----------- cascader -----------*/
+
+/* ----------- default -----------*/
+--dm-component-cascader-default-font: var(--dm-common-font-color-tertiary);
+--dm-component-cascader-default-background: var(--dm-common-background-default);
+--dm-component-cascader-default-border: var(--dm-common-border-color-default);
+
+/* ----------- tag -----------*/
+--dm-component-cascader-tag-default-font: var(--dm-common-font-color-tertiary);
+--dm-component-cascader-tag-default-background: var(--dm-common-background-02);
+--dm-component-cascader-tag-default-border: var(--dm-common-border-color-transparent);
+--dm-component-cascader-tag-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-cascader-tag-disabled-background: var(--dm-common-background-03);
+--dm-component-cascader-tag-disabled-border: var(--dm-common-border-color-transparent);
+
+/* ----------- placeholder -----------*/
+--dm-component-cascader-placeholder-font: var(--dm-common-font-color-placeholder);
+--dm-component-cascader-placeholder-background: var(--dm-common-background-default);
+--dm-component-cascader-placeholder-border: var(--dm-common-border-color-default);
+
+/* ----------- hover -----------*/
+--dm-component-cascader-hover-font: var(--dm-common-font-color-tertiary);
+--dm-component-cascader-hover-background: var(--dm-common-background-default);
+--dm-component-cascader-hover-border: var(--dm-common-border-color-default);
+
+/* ----------- disabled -----------*/
+--dm-component-cascader-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-cascader-disabled-background: var(--dm-common-background-disabled);
+--dm-component-cascader-disabled-border: var(--dm-common-border-color-disabled);
+
+/* ----------- error -----------*/
+--dm-component-cascader-error-background: var(--dm-common-background-default);
+--dm-component-cascader-error-border: var(--dm-common-border-color-error);
+--dm-component-cascader-error-font: var(--dm-common-font-color-default);
+
+/* ----------- focus -----------*/
+--dm-component-cascader-focus-font: var(--dm-common-font-color-placeholder);
+--dm-component-cascader-focus-background: var(--dm-common-background-default);
+--dm-component-cascader-focus-border: var(--dm-common-border-color-focus);
+
+/* ----------- table -----------*/
+
+/* ----------- status -----------*/
+--dm-component-table-status-focus-default-background: var(--dm-common-background-selected);
+--dm-component-table-status-focus-hover-background: var(--dm-common-background-selected-hover);
+--dm-component-table-status-default-hover-background: var(--dm-common-background-hover);
+--dm-component-table-status-zebra-background: var(--dm-common-background-01);
+--dm-component-table-status-active-default-background: var(--dm-common-background-selected);
+--dm-component-table-status-active-hover-background: var(--dm-common-background-selected-hover);
+--dm-component-table-status-disabled-background: var(--dm-common-background-disabled);
+--dm-component-table-status-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-table-status-error-default-background: var(--dm-common-background-error-light);
+--dm-component-table-status-error-default-font: var(--dm-common-font-color-default);
+--dm-component-table-status-error-hover-background: var(--dm-common-background-error-light-hover);
+--dm-component-table-status-warning-default-background: var(--dm-common-background-warning-light);
+--dm-component-table-status-warning-default-font: var(--dm-common-font-color-default);
+--dm-component-table-status-warning-hover-background: var(--dm-common-background-warning-light-hover);
+--dm-component-table-status-success-default-background: var(--dm-common-background-success-light);
+--dm-component-table-status-success-default-font: var(--dm-common-font-color-default);
+--dm-component-table-status-success-hover-background: var(--dm-common-background-success-light-hover);
+
+/* ----------- body -----------*/
+--dm-component-table-body-default-background: var(--dm-common-background-default);
+--dm-component-table-body-default-font: var(--dm-common-font-color-default);
+
+/* ----------- header -----------*/
+--dm-component-table-header-default-font: var(--dm-common-font-color-tertiary);
+--dm-component-table-header-default-background: var(--dm-common-background-01);
+--dm-component-table-header-default-border: var(--dm-common-border-color-default);
+--dm-component-table-header-tips-default-color: var(--dm-common-font-color-icon);
+--dm-component-table-header-tips-default-color-hover: var(--dm-common-font-color-icon-hover);
+--dm-component-table-header-sortable-default-font: var(--dm-common-font-color-helper);
+--dm-component-table-header-sortable-hover-font: var(--dm-common-font-color-helper-hover);
+--dm-component-table-header-sortable-active-font: var(--dm-common-font-color-brand);
+
+/* ----------- footer -----------*/
+--dm-component-table-footer-default-font: var(--dm-common-font-color-default);
+--dm-component-table-footer-default-background: var(--dm-common-background-default);
+--dm-component-table-footer-default-border: var(--dm-common-border-color-default);
+
+/* ----------- summary -----------*/
+--dm-component-table-summary-default-font: var(--dm-common-font-color-tertiary);
+--dm-component-table-summary-default-background: var(--dm-common-background-01);
+--dm-component-table-summary-default-border: var(--dm-common-border-color-default);
+
+/* ----------- toolbar -----------*/
+--dm-component-table-toolbar-default-font: var(--dm-common-font-color-tertiary);
+--dm-component-table-toolbar-default-background: var(--dm-common-background-01);
+--dm-component-table-toolbar-default-border: var(--dm-common-border-color-default);
+
+/* ----------- multipool -----------*/
+--dm-component-table-multipool-default-font: var(--dm-common-font-color-tertiary);
+--dm-component-table-multipool-default-background: var(--dm-common-background-01);
+--dm-component-table-multipool-default-border: var(--dm-common-border-color-default);
+
+/* ----------- editor -----------*/
+--dm-component-table-editor-default-font: var(--dm-common-font-color-default);
+--dm-component-table-editor-default-background: var(--dm-common-background-default);
+
+/* ----------- popper -----------*/
+
+/* ----------- item -----------*/
+--dm-component-popper-item-default-background: var(--dm-common-background-default);
+--dm-component-popper-item-default-font: var(--dm-common-font-color-default);
+--dm-component-popper-item-default-border: var(--dm-common-border-color-default);
+--dm-component-popper-item-hover-font: var(--dm-common-font-color-default);
+--dm-component-popper-item-hover-background: var(--dm-common-background-hover);
+--dm-component-popper-item-active-font: var(--dm-common-font-color-brand);
+--dm-component-popper-item-active-background: var(--dm-common-background-primary-active);
+--dm-component-popper-item-disabled-font: var(--dm-common-font-color-disabled);
+--dm-component-popper-item-disabled-background: var(--dm-common-background-transparent);
+--dm-component-popper-item-active-hover-background: var(--dm-common-background-primary-light-hover);
+--dm-component-popper-item-active-hover-font: var(--dm-common-font-color-brand);
+
+}
